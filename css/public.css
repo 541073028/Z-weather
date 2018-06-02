@@ -1,0 +1,22 @@
+/*
+* @Author: 贾思凡
+* @Date:   2018-01-30 11:50:24
+* @Last Modified by:   贾思凡
+* @Last Modified time: 2018-02-07 11:46:47
+*/
+*{
+	margin: 0;/*body-8px*/
+	text-decoration: none;
+	font-style: normal;
+	padding: 0;
+	list-style: none;
+	-webkit-tap-highline-color: rgba(0, 0, 0, 0);
+	box-sizing: border-box;
+}
+img{
+	width: 100%;
+	height: 100%;
+	display: block;
+	border: 0;
+	/*文本属性会对其产生影响 默认有边框需清楚*/
+}

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+   	<meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0,
+   	 maximum-scale=1.0, minimum-scale=1.0">
+	<title>天气APP</title>
+	<link rel="ico" href="img/logo.ico"  type="img/x-icon">
+	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="css/tianqi.css">
+	<script src="js/rem.js"></script>
+
+</head>
+<body>
+	<!-- 当前信息 -->
+	<section id="now">
+		<!-- 当前城市 -->
+		<h1 class="now_city">
+			<span class="address">&#xe68d;</span>
+			<span class="now_city_name">太原</span>
+			<span class="add">+</span>
+		</h1>
+		<!-- 当前空气质量 -->
+		<div class="now_air">
+			<h1>空气</h1>
+			<h2>良</h2>
+			
+		</div>
+		<!-- 当前温度 -->
+		<h2 class="now_temp">
+			<span>-3</span>°
+		</h2>
+		<!-- 当前天气 -->
+		
+		<h2 class="now_weather">
+			<span>晴</span>
+		</h2>
+		<!-- 当前风况 -->
+		<div class="now_wind">
+			<span>北风</span>
+			<span>3</span>级
+			
+		</div>
+		<!-- 提示 -->
+		<p class="now_noice">
+			<span>天气冷了，注意保暖</span>
+		</p>
+	</section>
+	<!-- 未来2天天气信息 -->
+		<section id="futher">
+			<div class="futher_box today">
+				<div class="futher_top">
+					<span class="futher_date">今天</span>
+
+					<p><span class="today_hightemp">4</span>/<span class="today_lowtemp">-10</span>°C</p>
+				</div>
+				<div class="futher_top">
+					<span class="futher_weather">多云</span>
+
+					<div class="today_img">
+						<img src="img/1.png" alt="">
+					</div>
+				</div>
+			</div>
+
+			<div class="futher_box tomorrow">
+				<div class="futher_top">
+					<span class="futher_date">明天</span>
+					<p><span class="tomorrow_hightemp">4</span>/<span class="tomorrow_lowtemp">-10</span>°C</p>
+				</div>
+				<div class="futher_top">
+					<span class="futher_weather">多云</span>
+					<div class="today_img">
+						<img src="img/1.png" alt="">
+					</div>
+				</div>
+				
+			</div>
+			
+		</section>
+	<!-- 未来24小时天气 -->
+		<ul id="hours">
+			<li>
+				<h1 class="hours_time">8.00</h1>
+
+				<div class="hours_img">
+					<img src="img/4.png" alt="">
+				</div>
+
+				<h2 class="hours_temp"><span>6</span>°</h2>
+			</li>
+
+			<li>
+				<h1 class="hours_time">8.00</h1>
+
+				<div class="hours_img">
+					<img src="img/4.png" alt="">
+				</div>
+
+				<h2 class="hours_temp"><span>6</span>°</h2>
+			</li>
+
+			<li>
+				<h1 class="hours_time">8.00</h1>
+
+				<div class="hours_img">
+					<img src="img/4.png" alt="">
+				</div>
+
+				<h2 class="hours_temp"><span>6</span>°</h2>
+			</li>
+
+			<li>
+				<h1 class="hours_time">8.00</h1>
+
+				<div class="hours_img">
+					<img src="img/4.png" alt="">
+				</div>
+
+				<h2 class="hours_temp"><span>6</span>°</h2>
+			</li>
+
+			<li>
+				<h1 class="hours_time">8.00</h1>
+
+				<div class="hours_img">
+					<img src="img/4.png" alt="">
+				</div>
+
+				<h2 class="hours_temp"><span>6</span>°</h2>
+			</li>
+
+			<li>
+				<h1 class="hours_time">8.00</h1>
+
+				<div class="hours_img">
+					<img src="img/4.png" alt="">
+				</div>
+
+				<h2 class="hours_temp"><span>6</span>°</h2>
+			</li>
+
+			<li>
+				<h1 class="hours_time">8.00</h1>
+
+				<div class="hours_img">
+					<img src="img/4.png" alt="">
+				</div>
+
+				<h2 class="hours_temp"><span>6</span>°</h2>
+			</li>
+
+			<li>
+				<h1 class="hours_time">8.00</h1>
+
+				<div class="hours_img">
+					<img src="img/4.png" alt="">
+				</div>
+
+				<h2 class="hours_temp"><span>6</span>°</h2>
+			</li>
+		</ul>
+	<!-- 未来几周 -->
+		<ul id="week">
+			<li>
+				<h1 class="week_date"><span>02</span>/<span>06</span></h1>
+
+				<h2 class="week_weather">多云转晴</h2>
+
+				<div class="week_img">
+					<img src="img/4.png" alt="">
+				</div>
+
+				<h2 class="week_hightemp">6</h2>
+
+				<h2 class="week_lowtemp">8</h2>
+				
+				<h2 class="week_wind">北风</h2>
+				<h2 class="week_leave"><span>3</span>级</h2>
+				
+
+				
+			</li>
+
+			<li>
+				<h1 class="week_date"><span>02</span>/<span>06</span></h1>
+				<h2 class="week_weather">多云</h2>
+
+				<div class="week_img">
+					<img src="img/4.png" alt="">
+				</div>
+
+				<h2 class="week_hightemp">6</h2>
+
+				<h2 class="week_lowtemp">8</h2>
+				
+				<h2 class="week_wind">北风</h2>
+				<h2 class="week_leave"><span>3</span>级</h2>
+
+				
+			</li>
+
+			<li>
+				<h1 class="week_date"><span>02</span>/<span>06</span></h1>
+				<h2 class="week_weather">多云</h2>
+
+				<div class="week_img">
+					<img src="img/4.png" alt="">
+				</div>
+
+				<h2 class="week_hightemp">6</h2>
+
+				<h2 class="week_lowtemp">8</h2>
+				
+				<h2 class="week_wind">北风</h2>
+				<h2 class="week_leave"><span>3</span>级</h2>
+
+				
+			</li>
+
+			<li>
+				<h1 class="week_date"><span>02</span>/<span>06</span></h1>
+				<h2 class="week_weather">多云</h2>
+
+				<div class="week_img">
+					<img src="img/4.png" alt="">
+				</div>
+
+				<h2 class="week_hightemp">6</h2>
+
+				<h2 class="week_lowtemp">8</h2>
+				
+				<h2 class="week_wind">北风</h2>
+				<h2 class="week_leave"><span>3</span>级</h2>
+
+				
+			</li>
+
+			<li>
+				<h1 class="week_date"><span>02</span>/<span>06</span></h1>
+				<h2 class="week_weather">多云转晴</h2>
+
+				<div class="week_img">
+					<img src="img/4.png" alt="">
+				</div>
+
+				<h2 class="week_hightemp">6</h2>
+
+				<h2 class="week_lowtemp">8</h2>
+				
+				<h2 class="week_wind">北风</h2>
+				<h2 class="week_leave"><span>3</span>级</h2>
+
+				
+			</li>
+			<li>
+				<h1 class="week_date"><span>02</span>/<span>06</span></h1>
+				<h2 class="week_weather">多云转晴</h2>
+
+				<div class="week_img">
+					<img src="img/4.png" alt="">
+				</div>
+				
+				<h2 class="week_hightemp">6</h2>
+
+				<h2 class="week_lowtemp">8</h2>
+				
+				<h2 class="week_wind">北风</h2>
+				<h2 class="week_leave"><span>3</span>级</h2>
+				
+			</li>
+
+			<li>
+				<h1 class="week_date"><span>02</span>/<span>06</span></h1>
+				<h2 class="week_weather">多云转晴</h2>
+
+				<div class="week_img">
+					<img src="img/4.png" alt="">
+				</div>
+				
+				<h2 class="week_hightemp">6</h2>
+
+				<h2 class="week_lowtemp">8</h2>
+				
+				<h2 class="week_wind">北风</h2>
+				<h2 class="week_leave"><span>3</span>级</h2>
+				
+			</li>	
+		</ul>
+		 <main id="citys">
+			<header>
+				<input type="text" class="search" placeholder="请输入搜索内容">
+				<h2  class="btn">搜索</h2>
+			</header>
+			<div class="citys_bottom">
+				<section class="hotcitys">
+					<h1 class="hotcitys_title">热门城市</h1>
+					<div class="hotcitys_bottom">
+						<div class="hotcitys_item">北京</div>
+						<div class="hotcitys_item">上海</div>
+						<div class="hotcitys_item">广州</div>
+
+					</div>
+				</section>
+
+			</div>
+		</main>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/tianqi.js"></script>
+</body>
+</html>
